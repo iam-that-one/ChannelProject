@@ -9,7 +9,7 @@ import Foundation
 class Playlist : CustomStringConvertible {
     var description: String{
         """
-        Hi, iam \(self.name), my shared status is \(sharred). I have \(videos.count) vidoes, please! enjoy my videos!!
+        Hi, iam your new playlist, my name is \"\(self.name)\", my shared status is \(sharred). I have \(videos.count) vidoes, please! enjoy my videos!!
         """
     }
     

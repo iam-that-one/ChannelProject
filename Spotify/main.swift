@@ -21,7 +21,7 @@ var video7  = Video(107, "Tash Ma tash", duration: 563, categoery: .comedy)
 var video8  = Video(108, "basketball hahah", duration: 234, categoery: .entertainment)
 var video9  = Video(109, "Wow", duration: 342, categoery: .entertainment)
 
-var p = Playlist()
+var p = Playlist(name: "Great videos", shared: false, videos: [] )
 p.addVideo(v: video)
 p.addVideo(v: video2)
 p.addVideo(v: video3)
