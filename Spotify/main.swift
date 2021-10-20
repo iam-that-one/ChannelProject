@@ -48,3 +48,5 @@ ch.addPlaylist(p: p3)
 p2.removeVideo(id: 10)
 print(p2.countVideos(category: .comedy))
 print(p) // pinting object description
+
+p.printMyVideos() // prints all videos in play liat p

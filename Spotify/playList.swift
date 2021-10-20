@@ -56,5 +56,10 @@ class Playlist : CustomStringConvertible {
         }
         return count
     }
+    func printMyVideos(){
+        for i in _videos{
+            print(i.title)
+        }
+    }
     
 }

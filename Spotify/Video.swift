@@ -20,6 +20,9 @@ class Video : CustomStringConvertible{
     var id : Int{
         _id
     }
+    var title : String{
+        _title
+    }
     var categoery : MyCategoery{
         _categoery
     }
