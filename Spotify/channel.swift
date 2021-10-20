@@ -35,7 +35,7 @@ class Channel {
         for playlist in _playlist{
             for video in playlist.videos{
                 if video.categoery == categoery {
-                    print(newPlaylist.addVideo(v: video))
+                    newPlaylist.addVideo(v: video)
                 }
             }
         }
