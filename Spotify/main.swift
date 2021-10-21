@@ -47,9 +47,9 @@ ch.addPlaylist(p: p3)
 
 p2.removeVideo(id: 104)
 print(p2.countVideos(category: .comedy))
-print(p) // pinting object description of p
-print(p2) // pinting object description of p2
-print(p3) // pinting object description of p3
+print(p) // pinting the description of object p
+print(p2) // pinting the description of object p2 // you will see just 2 videos in Favourite videos playlist not 3
+print(p3) // pinting the description of object p3
 p.printMyVideos() // prints all videos in playlist p
 print("-------------")
 p2.printMyVideos() // prints all videos in playlist p2
