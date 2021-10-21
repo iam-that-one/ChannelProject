@@ -21,18 +21,18 @@ var video7  = Video(107, "Tash Ma tash", duration: 563, categoery: .comedy)
 var video8  = Video(108, "basketball hahah", duration: 234, categoery: .entertainment)
 var video9  = Video(109, "Wow", duration: 342, categoery: .entertainment)
 
-var p = Playlist(name: "Great videos", shared: false, videos: [] )
+var p = Playlist(name: "Great videos", shared: true, videos: [] )
 p.addVideo(v: video)
 p.addVideo(v: video2)
 p.addVideo(v: video3)
 
-var p2 = Playlist()
+var p2 = Playlist(name: "Favourite videos", shared: false, videos: [] )
 
 p2.addVideo(v: video4)
 p2.addVideo(v: video5)
 p2.addVideo(v: video6)
 
-var p3 = Playlist()
+var p3 = Playlist(name: "To be downloadded videos", shared: false, videos: [] )
 
 p3.addVideo(v: video7)
 p3.addVideo(v: video8)
@@ -47,8 +47,11 @@ ch.addPlaylist(p: p3)
 
 p2.removeVideo(id: 104)
 print(p2.countVideos(category: .comedy))
-print(p) // pinting object description
-
+print(p) // pinting object description of p
+print(p2) // pinting object description of p2
+print(p3) // pinting object description of p3
 p.printMyVideos() // prints all videos in playlist p
 print("-------------")
 p2.printMyVideos() // prints all videos in playlist p2
+print("-------------")
+p3.printMyVideos() // prints all videos in playlist p3
