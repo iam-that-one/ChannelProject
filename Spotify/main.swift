@@ -45,7 +45,7 @@ ch.addPlaylist(p: p)
 ch.addPlaylist(p: p2)
 ch.addPlaylist(p: p3)
 
-p2.removeVideo(id: 10)
+p2.removeVideo(id: 104)
 print(p2.countVideos(category: .comedy))
 print(p) // pinting object description
 
