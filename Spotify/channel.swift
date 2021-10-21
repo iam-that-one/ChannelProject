@@ -7,7 +7,13 @@
 
 import Foundation
 
-class Channel {
+class Channel : CustomStringConvertible {
+    var description: String{
+        """
+        Hi there I am \(self._name) channel. Please subscribe and share me!
+        """
+    }
+    
     private var _name : String
     private var _playlist : [Playlist]
     

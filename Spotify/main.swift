@@ -6,8 +6,8 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+var ch = Channel(name: "Movies")
+print(ch)
 
 var video  = Video(101, "Swift Fuondmental", duration: 11, categoery: .education)
 var video2  = Video(102, "Mask", duration: 15, categoery: .comedy)
@@ -40,7 +40,7 @@ p3.addVideo(v: video9)
 
 print(p.countVideos(category: .education))
 print(p2.countVideos(category: .entertainment))
- var ch = Channel(name: "Movies")
+
 ch.addPlaylist(p: p)
 ch.addPlaylist(p: p2)
 ch.addPlaylist(p: p3)
