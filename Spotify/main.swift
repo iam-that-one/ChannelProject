@@ -50,8 +50,8 @@ print(p2.countVideos(category: .comedy))
 print(p) // pinting the description of object p
 print(p2) // pinting the description of object p2 // you will see just 2 videos in Favourite videos playlist not 3
 print(p3) // pinting the description of object p3
-p.printMyVideos() // prints all videos in playlist p
+p.printMyVideos() // prints all videos in playlist p "Great Movies"
 print("-------------")
-p2.printMyVideos() // prints all videos in playlist p2
+p2.printMyVideos() // prints all videos in playlist p2 "Favourite videos"
 print("-------------")
-p3.printMyVideos() // prints all videos in playlist p3
+p3.printMyVideos() // prints all videos in playlist p3 "To be downloadded videos"
