@@ -15,7 +15,7 @@ var video3  = Video(103, "IOS", duration: 11, categoery: .education)
 
 var video4  = Video(104, "Friends", duration: 242, categoery: .entertainment)
 var video5  = Video(105, "Football", duration: 64, categoery: .sports)
-var video6  = Video(106, "Les go Mexico", duration: 234, categoery: .entertainment)
+var video6  = Video(106, "Let's go Mexico", duration: 234, categoery: .entertainment)
 
 var video7  = Video(107, "Tash Ma tash", duration: 563, categoery: .comedy)
 var video8  = Video(108, "basketball hahah", duration: 234, categoery: .entertainment)
@@ -49,4 +49,6 @@ p2.removeVideo(id: 10)
 print(p2.countVideos(category: .comedy))
 print(p) // pinting object description
 
-p.printMyVideos() // prints all videos in playliat p
+p.printMyVideos() // prints all videos in playlist p
+print("-------------")
+p2.printMyVideos() // prints all videos in playlist p2
